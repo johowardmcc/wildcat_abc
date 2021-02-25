@@ -5,6 +5,7 @@ library(adegenet)
 
 args = commandArgs(trailingOnly=TRUE)
 
+# m1 is a 012 matrix of the simulated genotypes
 m1 = read.table(args[1])
 m1 = m1[,-1]
 
