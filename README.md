@@ -6,7 +6,7 @@ Simulate genetic data and run ABC using a demographic model for Scottish wildcat
 ### 1. Generate prior distribution
 > Rscript script1_wildcat_priors.R
 
-Samples from the prior distribution for each model parameter.
+Sample from the prior distribution for each model parameter.
 Specify the number of samples required using "reps", e.g. here reps=5.  
 Resulting text file ("priors.txt") contains 10 columns and "reps" number of rows (one column per model parameter, each row containing the parameter values for a single simulation)
 
