@@ -1,7 +1,7 @@
 get_fp_proj = function(tolx=NULL,sstable,params,target=NULL)
 {
 
-	#Project the data and create a transformed sstable and target
+	# Project the data and create a transformed sstable and target
 
 	if(!is.null(tolx))target = as.numeric(target)
 	nss = dim(sstable)[2]
@@ -29,7 +29,7 @@ get_fp_proj = function(tolx=NULL,sstable,params,target=NULL)
 		sstable2 = sweep(sstable2,2,scaling,"/")	
 	}
 		
- 	#calc euclidean distance
+ 	# calculate euclidean distance
 	if(!is.null(tolx))dst = sqrt(apply(sweep(sstable2,2,target2)^2,1,sum)) 
 
 	if(is.null(tolx)){
