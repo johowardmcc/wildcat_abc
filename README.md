@@ -1,6 +1,6 @@
 # wildcat_abc
 
-Simulate genetic data and run ABC using a demographic model for Scottish wildcats. For detailed description of modelling approach see [add citation]
+Simulate genetic data and run ABC using a demographic model for Scottish wildcats. For detailed description of modelling approach see Howard-McCombe *et al*. (2021)
 
 ## Overview 
 ### 1. Generate prior distribution
